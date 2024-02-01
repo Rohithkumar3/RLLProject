@@ -17,7 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Rll\BusBookingSystem\BusBookingSystem\BusBookingSystem.csproj" />
+    <ProjectReference Include="..\..\BusBookingSystem\BusBookingSystem.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BusBookingSystem">
+      <HintPath>..\..\BusBookingSystem\bin\BusBookingSystem.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

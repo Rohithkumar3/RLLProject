@@ -12,7 +12,7 @@ namespace BusBookingSystem
     public partial class BusInventory : System.Web.UI.Page
     {
 
-        string strconn = "Data Source=LAPTOP-S16135GT;Initial Catalog = OnlineBusBookingDb;Integrated Security = True";
+        string strconn = "Data Source=LAPTOP-CL65602K\\SQLEXPRESS;Initial Catalog = OnlineBusBookingDb;Integrated Security = True";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)

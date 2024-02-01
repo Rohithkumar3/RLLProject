@@ -1,20 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj": {}
+    "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj": {}
   },
   "projects": {
-    "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
+    "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj",
+        "projectName": "BusBookingSystem",
+        "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj",
+        "projectUniqueName": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj",
         "projectName": "DALLAYER",
-        "projectPath": "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj",
-        "packagesPath": "C:\\Users\\Sai Yaswanth\\.nuget\\packages\\",
-        "outputPath": "D:\\DAL\\DALLAYER\\DALLAYER\\obj\\",
+        "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj",
+        "packagesPath": "C:\\Users\\gande\\.nuget\\packages\\",
+        "outputPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sai Yaswanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gande\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +43,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Rll\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj": {
-                "projectPath": "D:\\Rll\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj"
+              "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj": {
+                "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj"
               }
             }
           }
@@ -82,36 +97,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Rll\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Rll\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj",
-        "projectName": "BusBookingSystem",
-        "projectPath": "D:\\Rll\\BusBookingSystem\\BusBookingSystem\\BusBookingSystem.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj": {
+    "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj",
+        "projectUniqueName": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj",
         "projectName": "TestBus",
-        "projectPath": "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj",
-        "packagesPath": "C:\\Users\\Sai Yaswanth\\.nuget\\packages\\",
-        "outputPath": "D:\\Rll\\BusBookingSystem\\TestBus\\obj\\",
+        "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj",
+        "packagesPath": "C:\\Users\\gande\\.nuget\\packages\\",
+        "outputPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sai Yaswanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gande\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
-                "projectPath": "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj"
+              "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
+                "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj"
               }
             }
           }
@@ -178,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

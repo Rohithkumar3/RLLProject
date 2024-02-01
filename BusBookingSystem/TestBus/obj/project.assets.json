@@ -3863,8 +3863,8 @@
     },
     "DALLAYER/1.0.0": {
       "type": "project",
-      "path": "../../../DAL/DALLAYER/DALLAYER/DALLAYER.csproj",
-      "msbuildProject": "../../../DAL/DALLAYER/DALLAYER/DALLAYER.csproj"
+      "path": "../DALLAYER/DALLAYER/DALLAYER.csproj",
+      "msbuildProject": "../DALLAYER/DALLAYER/DALLAYER.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3878,19 +3878,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sai Yaswanth\\.nuget\\packages\\": {}
+    "C:\\Users\\gande\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj",
+      "projectUniqueName": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj",
       "projectName": "TestBus",
-      "projectPath": "D:\\Rll\\BusBookingSystem\\TestBus\\TestBus.csproj",
-      "packagesPath": "C:\\Users\\Sai Yaswanth\\.nuget\\packages\\",
-      "outputPath": "D:\\Rll\\BusBookingSystem\\TestBus\\obj\\",
+      "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\TestBus.csproj",
+      "packagesPath": "C:\\Users\\gande\\.nuget\\packages\\",
+      "outputPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\TestBus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sai Yaswanth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gande\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3904,8 +3904,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
-              "projectPath": "D:\\DAL\\DALLAYER\\DALLAYER\\DALLAYER.csproj"
+            "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj": {
+              "projectPath": "C:\\Mphasis\\RLLEndProject\\BusBookingSystem\\DALLAYER\\DALLAYER\\DALLAYER.csproj"
             }
           }
         }
@@ -3957,7 +3957,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

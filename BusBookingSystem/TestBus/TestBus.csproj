@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\DAL\DALLAYER\DALLAYER\DALLAYER.csproj" />
+    <ProjectReference Include="..\DALLAYER\DALLAYER\DALLAYER.csproj" />
   </ItemGroup>
 
 </Project>
