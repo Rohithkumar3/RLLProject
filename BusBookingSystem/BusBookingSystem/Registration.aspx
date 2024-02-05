@@ -131,7 +131,7 @@
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox7" runat="server" placeholder="Pincode" TextMode="Number"></asp:TextBox>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" ForeColor="Red" runat="server" ErrorMessage="Please Enter the Pincode" ControlToValidate="TextBox7"></asp:RequiredFieldValidator>
-                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" ErrorMessage="Pincode  length should be 6 in digit" ControlToValidate="TextBox7" ValidationExpression="\d{6}" ForeColor="Red"></asp:RegularExpressionValidator></td>
+                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" ErrorMessage="Pincode length should be 6 in digit" ControlToValidate="TextBox7" ValidationExpression="\d{6}" ForeColor="Red"></asp:RegularExpressionValidator></td>
                                 
                                 </div>
                             </div>

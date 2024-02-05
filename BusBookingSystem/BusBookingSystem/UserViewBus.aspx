@@ -76,8 +76,8 @@
                                 <label>Number Of Tickets</label>
                                 <div class="form-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged" AutoPostBack="true"></asp:TextBox>
-                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ForeColor="Red" runat="server" ErrorMessage="Please Enter the Mobile Number" ControlToValidate="TextBox10"></asp:RequiredFieldValidator>
-                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Mobile Number length should be 10 in digit" ControlToValidate="TextBox10" ValidationExpression="\d{10}" ForeColor="Red"></asp:RegularExpressionValidator></td>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ForeColor="Red" runat="server" ErrorMessage="Please enter Number of tickets" ControlToValidate="TextBox10"></asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Number of tickets should be more than 1" ControlToValidate="TextBox10" ValidationExpression="\d{10}" ForeColor="Red"></asp:RegularExpressionValidator></td>
                                 
                                 </div>
 

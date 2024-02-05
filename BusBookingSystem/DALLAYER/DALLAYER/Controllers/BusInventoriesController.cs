@@ -46,20 +46,24 @@ namespace DALLAYER.Controllers
         [HttpPost]
         public IActionResult Post(BusInventory businventory)
         {
-            _context.Add(businventory);
-            _context.SaveChanges();
-            return Ok("Bus Details Created");
+            try
+            {
+                if (businventory.BusId == "")
+                {
+                    return BadRequest("Invalid input. BusId is null");
+                }
+                _context.Add(businventory);
+                _context.SaveChanges();
+                return Ok("Bus Details Created");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500,$"Internal server error:{ex.Message}");
+            }
         }
         [HttpPut]
         public IActionResult Put(BusInventory businventory)
         {
-            if (businventory == null)
-            {
-               
-                return BadRequest($"Booking id {businventory.BusId} is invalid");
-                
-            }
-
             var busdetail = _context.BusInventories.Find(businventory.BusId);
             if (busdetail == null)
             {

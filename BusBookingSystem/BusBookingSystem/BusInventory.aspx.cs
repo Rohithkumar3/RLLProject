@@ -73,7 +73,7 @@ namespace BusBookingSystem
             }
             else
             {
-                Response.Write("<script>alert('Id nout found. Please change ID !!!!');</script>");
+                Response.Write("<script>alert('Id not found. Please change ID !!!!');</script>");
             }
 
 

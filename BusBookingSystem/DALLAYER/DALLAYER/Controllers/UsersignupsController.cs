@@ -41,17 +41,27 @@ namespace DALLAYER.Controllers
         [HttpPost]
         public IActionResult Post(Usersignup usersignup)
         {
-            _context.Add(usersignup);
-            _context.SaveChanges();
-            return Ok("User created");
+            try
+            {
+                if (usersignup.Username == "")
+                {
+                    return BadRequest("Invalid input. usersignup object is null");
+                }
+
+                _context.Add(usersignup);
+                _context.SaveChanges();
+                return Ok("User created");
+            }
+
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error:{ex.Message}");
+            }
         }
         [HttpPut]
         public IActionResult Put(Usersignup usersignup)
         {
-            if (usersignup.Username == "")
-            {
-                return BadRequest($"UserName {usersignup.Username} is invalid");
-            }
+           
             var details = _context.Usersignups.Find(usersignup.Username);
             if (details == null)
             {

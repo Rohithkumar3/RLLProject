@@ -34,18 +34,26 @@ namespace DALLAYER.Controllers
         [HttpPost]
         public IActionResult Post(Adminlogin adminlogin)
         {
-            _context.Add(adminlogin);
-            _context.SaveChanges();
-            return Ok("Login created");
+            try
+            {
+                if (adminlogin.Username == "")
+                {
+                    return BadRequest("Invalid input. adminlogin object is null");
+                }
+
+                _context.Add(adminlogin);
+                _context.SaveChanges();
+                return Ok("Login created");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error:{ex.Message}");
+            }
         }
 
         [HttpPut]
         public IActionResult Put(Adminlogin adminlogin)
         {
-            if (adminlogin.Username == "")
-            {
-                return BadRequest($"UserName {adminlogin.Username} is invalid");
-            }
             var admin = _context.Adminlogins.Find(adminlogin.Username);
             if (admin == null)
             {
@@ -53,6 +61,7 @@ namespace DALLAYER.Controllers
             }
             admin.Username = adminlogin.Username;
             admin.Pswrd = adminlogin.Pswrd;
+            admin.Name = adminlogin.Name;
             _context.SaveChanges();
             return Ok("Logindetails Updated");
         }
